@@ -8,7 +8,7 @@ import BudgetManager from './components/BudgetManager';
 import Analytics from './components/Analytics';
 import './App.css';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://expense-tracker-enhanced-2-production.up.railway.app/';
 
 function App() {
   const [expenses, setExpenses] = useState([]);
